@@ -1,0 +1,228 @@
+.matches__outer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.matches__inner{
+    margin-top: 6rem;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.matches__inner{
+    height: fit-content;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.matches__inner__matched{
+    height: fit-content;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.matches__inner__matched__title{
+    height: fit-content;
+    align-items: center;
+    
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+.searchresult__outer{
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center; 
+}
+.searchresult__inner{
+    margin-top: 6rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #EFF4FC;
+}
+
+.searchresult__searchpanel{
+width: 100%;
+height: fit-content;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.searchresult__filters{
+height: fit-content;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+
+.searchresult__filters__left{
+width: 20%;
+height:50rem;
+display: flex;
+flex-direction: column;;
+align-items: center;
+justify-content: center;
+
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.searchresult__filters__right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height:fit-content;
+    width: 70%;
+}
+
+.searchpanel__outer{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    background-color:white ;
+}
+.searchBar_icon{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchpanel__input{
+    width: 80%;
+    height: 100%;
+    font-size: 1.5rem;
+    border:none;
+   outline: none;
+}
+
+.searchpanel__input:focus {
+    outline: none;
+  }
+
+
+  .searchresult__filters__left__height{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+
+  .searchresult__filters__left__height__title{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+  }
+
+  .searchresult__filters__left__height__properties{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+    align-items: center;
+    justify-items: center;
+    font-size: 15px;
+  }
+
+  .searchresult__filters__left__ele1{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    justify-items: center;
+  }
+
+
+
+  .profile__inner__fname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.profile__inner__fname__left{
+    display: flex;
+    height: fit-content;
+    width: 30%;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.profile__inner__fname__right{
+    display: flex;
+    height: fit-content;
+    width: 40%;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.profile__inner__submit{
+  height: 3rem;
+  width: 10rem;
+  background-color:orange ;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}

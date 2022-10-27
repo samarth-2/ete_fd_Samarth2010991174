@@ -1,0 +1,117 @@
+.membership__outer{
+width: 90%;
+height: 100%;
+border-radius: 20px;
+background-color: white;
+}
+
+.membership__inner{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.membership__inner__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    font-size: 25px;
+    width: 100%;
+}
+
+.membership__outer__cards{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+}
+.membership__cards{
+    height: fit-content;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.membership__cards__title{
+    font-size: 20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+}
+
+.membership__cards__info{
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+}
+
+.membership_payment__outer{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:EFF4FC;
+
+}
+
+.membership_payment__inner{
+
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60%;
+    height: fit-content;
+    font-size: 20px;
+}
+
+.membership_payment__title{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    height:fit-content;
+    width:100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.membership__payment__button{
+    height:3rem;
+    width: 7rem;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color:orange ;
+    border-radius: 10px;
+}
+
+.membership__payment__success{
+    height: 100%;
+    width: 100%;
+    
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+
+}

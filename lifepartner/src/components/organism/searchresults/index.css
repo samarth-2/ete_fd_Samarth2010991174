@@ -1,0 +1,260 @@
+.searchresult__outer{
+    width: 100%;
+    height: fit-content;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center; 
+    overflow: hidden;
+}
+/* .searchresult__inner{
+    margin-top: 0rem;
+    width: 100%;
+    height: 40.6rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #EFF4FC;
+    
+    
+}
+
+.searchresult__searchpanel{
+width: 100%;
+height: fit-content;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.searchresult__filters{
+height: fit-content;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+
+.searchresult__filters__left{
+  width: 20rem;
+  height:30rem;
+  display: flex;
+  flex-direction: column;;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.searchresult__filters__right{
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    overflow-y: scroll;
+}
+
+.searchpanel__outer{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    background-color:white ;
+}
+.searchBar_icon{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchpanel__input{
+    width: 80%;
+    height: 100%;
+    font-size: 1.5rem;
+    border:none;
+   outline: none;
+}
+
+.searchpanel__input:focus {
+    outline: none;
+  }
+
+
+  .searchresult__filters__left__height{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+
+  .searchresult__filters__left__height__title{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+  }
+
+  .searchresult__filters__left__height__properties{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+    align-items: center;
+    justify-items: center;
+    font-size: 15px;
+  }
+
+  .searchresult__filters__left__ele1{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+ 
+
+
+
+
+
+ */
+
+
+
+
+
+.searchpage__inner{
+  width:100%;
+  height:40rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 6rem;
+}
+
+.searchpage__inner__left{
+  width:20%;
+  padding: 1rem;
+  height:98%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.searchpage__inner__right{
+  width:70%;
+  height:100%;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+.name-outer{
+  width:90%;
+  height:fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.name-label{
+  width:100%;
+  height:fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #2F2E41;
+}
+.searchpage__inner__left__up{
+  width:100%;
+  height:90%;
+  overflow-y: scroll;
+}
+.searchpage__inner__left__down{
+  width:100%;
+  height:3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filter__each{
+  width:100%;
+  height:fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.filter__each__heading{
+  width:100%;
+  height:fit-content;
+  font-size: 15px;
+  font-weight: 600;
+}
+.filter__each__slider{
+  width:80%;
+  height:fit-content;
+}
+
+.home__inner__seaction2__inner__bottom__under__all__head{
+  width:100%;
+  height:fit-content;
+  font-size: 16px;
+  font-weight: 600;
+}
+.home__inner__seaction2__inner__bottom__under__all__value{
+  width:100%;
+  height:fit-content;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}

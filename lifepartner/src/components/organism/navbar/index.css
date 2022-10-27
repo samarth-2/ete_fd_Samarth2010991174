@@ -1,0 +1,63 @@
+.navbar__outer{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    margin-top: 0rem;
+background-color: white;
+}
+
+.navbar__inner{
+    height: 100%;
+    width: 95%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.navbar__left{
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+
+.navbar__left__logo{
+
+height: 4rem;
+width: 20rem;
+cursor: pointer;
+}
+
+.navbar__right{
+    height: fit-content;
+    width: 50%;
+    
+
+
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.navbar__right__title{
+    height: fit-content;
+    width: 7rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navbar__right__title :hover{
+    font-weight: 600;
+    color:grey;
+}
